@@ -11,7 +11,9 @@
     tools:context="co.edu.udea.compumovil.gr01_20171.saveinstance.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Count:  "
         android:gravity="center"
